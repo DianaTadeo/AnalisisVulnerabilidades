@@ -2,9 +2,12 @@
 
 Aqui se encontraran las tareas y examenes del curso de análisis de vulnerabilidades
 
-##Tareas
+## Tareas
 
 ### Investigación
+
+[Investigacion](Investigacion)
+
 + Significado de la “R” en los registros de proposito general  de 64 bits.
 + Generar el código ensamblador de las sentencias `switch`,  y `for` (comentadas línea por línea).
 + Investigar tipos de datos en ensamblador y su tamaño.
@@ -16,13 +19,20 @@ Aqui se encontraran las tareas y examenes del curso de análisis de vulnerabilid
 **Referencia**: [https://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-instruction-set-reference-manual-325383.pdf](https://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-instruction-set-reference-manual-325383.pdf) 
 
 ### shell
+
+[bindshell.asm](bindshell.asm)
+
 Generar un programa en ensamblador que abra un puerto, al  conectarse al puerto debe devolver una *shell*, haciendo uso de  la llamada al sistema `execve`.
 
 ### shellcode
 
+[shellcode.py](shellcode.py)
+
 Generar un programa para obtener *shellcode*, similar a  `getshcode`, pero implementado en cualquier lenguaje de alto nivel, que por defecto imprima la cadena en formato `\x90\x90`, con el parámetro `-u` debe imprimirlo en formato  *unicode* `\u9090\u9090` y con el parámetro `-n` debe imprimir sólo los valores numéricos `9090`.
 
 ### dnstracer
+
+[dnstracer.pdf](dnstracer.pdf)
 
 Explotar la vulnerabilidad de `dnstracer` versión 1.8. Documentar los pasos seguidos e incluir prueba de concepto. 
 
