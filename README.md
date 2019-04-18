@@ -38,6 +38,8 @@ Explotar la vulnerabilidad de `dnstracer` versión 1.8. Documentar los pasos seg
 
 ### Funciones vulnerables
 
+[Vulnerabilidades_en_funciones.pdf](Vulnerabilidades_en_funciones.pdf)
+
 Elaborar una tabla comparativa con las funciones vulnerables a *buffer overflow* de C contra sus versiones seguras e indicar qué hace cada función.
 
 ### PoC
@@ -49,5 +51,7 @@ Desarrollar una prueba de concepto utilizando algún programa de la carrera o al
 **Nota**: Se recomienda explotarlo dentro de `gdb` para evitar contratiempos.
 
 ### Reverse shell
+
+[ReverseShell](ReverseShell)
 
 Generar un *reverse shell* y codificarlo con `msfvenom`. Subir ambos archivos ejecutables a `Virus Total` y comparar cuántos motores los detectan como maliciosos. Documentar pasos seguidos, incluir los ejecutables comprimidos, así como capturas de pantalla de las búsquedas en `Virus Total`. 
